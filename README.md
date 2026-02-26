@@ -79,14 +79,14 @@ python scripts/run_experiment.py --users 800 --items 700 --interactions 35 --top
 
 This writes `artifacts/metrics.json` for reproducible run tracking.
 
-## Deploy for free
+## Deploy for free using below options
 
-### Option 1: Streamlit Community Cloud
+### Streamlit Community Cloud
 1. Push repo to GitHub.
 2. Create app in Streamlit Community Cloud.
 3. Entrypoint: `app.py`.
 
-### Option 2: Container-based deployment
+### Container-based deployment
 
 ```bash
 docker build -t hybrid-rec-demo .
